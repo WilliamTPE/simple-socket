@@ -20,7 +20,7 @@ A simple program implementation socket to transfer messages between two processe
 - Two processes will communicate to each other that they have no more data to send. The socket connection should be terminated and the corresponding processes should exit.
 - At the end of the steps described above, files F1 and F2 should be identical and of size 600 bytes.
 
-```
+```lua
 +------+    Message 1 (first 75 bytes of F1)    +------+
 |  P1  | ------------------------------------>  |  P2  |
 +------+                                        +------+
